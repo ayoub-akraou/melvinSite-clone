@@ -38,9 +38,9 @@ navIcon.addEventListener("click", function () {
   menuLinks.forEach((e) => e.classList.toggle("menu__link--active"));
   navIcon.classList.toggle("close");
   if (navIcon.classList.contains("close")) {
-    navLinks.forEach((e) => (e.classList.add("invisible", "opacity-0")));
+    navLinks.forEach((e) => e.classList.add("invisible", "opacity-0"));
   } else {
-    navLinks.forEach((e) => (e.classList.remove("invisible", "opacity-0")));
+    navLinks.forEach((e) => e.classList.remove("invisible", "opacity-0"));
   }
 });
 
@@ -414,3 +414,16 @@ const today = new Date();
 const footerInfo = document.querySelector(".footer__info");
 
 footerInfo.innerHTML = `&copy ${today.getFullYear()} Melvin Thambi. All Rights Reserved`;
+
+// lazy loading images
+const images = [...document.images];
+
+const observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.src = entry.target.dataset.src
+      observer.unobserve(entry.target)
+    }
+  });
+});
+images.forEach((image) => observer.observe(image));

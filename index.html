@@ -171,7 +171,7 @@
             </div>
             <img
               class="aside opacity-0 absolute right-[-4%] top-0 h-full bg-yellow-500/50"
-              src="images/aside.png"
+              data-src="images/aside.png" src="images/aside-low.png"
               alt=""
             />
             <iframe
@@ -230,7 +230,7 @@
         <article class="artworks__gallery w-[105vw] lg:w-full overflow-x-hidden flex gap-4 sm:gap-8 lg:grid lg:grid-cols-[repeat(30,minmax(0,1fr))] lg:grid-rows-[repeat(30,minmax(0,1fr))] lg:gap-4 relative before:absolute before:right-0 before:top-0 before:h-full before:w-16 sm:before:w-[calc(10vw+8rem)] before:bg-gray-800/50 lg:before:hidden before:z-10 lg:overflow-visible">
           <figure class="gallery__figure lg:opacity-0 col-span-10 row-start-1 row-end-[13] lg:-translate-x-28 lg:-translate-y-28">
             <div class="figure__image">
-              <img src="images/painting1.jpeg" alt="painting">
+              <img data-src="images/painting1.jpeg" src="images/painting1-low.jpeg" alt="painting">
             </div>
             <div class="figure__info  ">
               <p class="figure__owner">Owned by CryptoKen</p>
@@ -240,7 +240,7 @@
           </figure>
           <figure class="gallery__figure lg:opacity-0 col-span-5 row-start-4 row-end-[17] lg:-translate-y-28">
             <div class="figure__image">
-              <img src="images/painting2.jpeg" alt="painting">
+              <img data-src="images/painting2.jpeg" src="images/painting2-low.jpeg" alt="painting">
             </div>
             <div class="figure__info  ">
               <p class="figure__owner">Owned by CryptoKen</p>
@@ -250,7 +250,7 @@
           </figure>
           <figure class="gallery__figure lg:opacity-0 col-span-8 row-start-1 row-end-[17] lg:-translate-y-28">
             <div class="figure__image">
-              <img src="images/painting3.jpeg" alt="painting">
+              <img data-src="images/painting3.jpeg" src="images/painting3-low.jpeg" alt="painting">
             </div>
             <div class="figure__info  ">
               <p class="figure__owner">Owned by CryptoKen</p>
@@ -260,7 +260,7 @@
           </figure>
           <figure class="gallery__figure lg:opacity-0 col-span-7 row-start-5 row-end-[25] lg:translate-x-28 ">
             <div class="figure__image">
-              <img src="images/painting4.jpeg" alt="painting">
+              <img data-src="images/painting4.jpeg" src="images/painting4-low.jpeg" alt="painting">
             </div>
             <div class="figure__info  ">
               <p class="figure__owner">Owned by CryptoKen</p>
@@ -270,7 +270,7 @@
           </figure>
           <figure class="gallery__figure lg:opacity-0 col-start-4 col-end-11 row-start-[13] row-end-[28] lg:-translate-x-28 lg:translate-y-28">
             <div class="figure__image">
-              <img src="images/painting5.jpeg" alt="painting">
+              <img data-src="images/painting5.jpeg" src="images/painting5-low.jpeg" alt="painting">
             </div>
             <div class="figure__info  ">
               <p class="figure__owner">Owned by CryptoKen</p>
@@ -280,7 +280,7 @@
           </figure>
           <figure class="gallery__figure lg:opacity-0 col-start-11 col-end-[19] row-start-[17] row-end-[30] lg:translate-y-28">
             <div class="figure__image">
-              <img src="images/painting6.jpeg" alt="painting">
+              <img data-src="images/painting6.jpeg" src="images/painting6-low.jpeg" alt="painting">
             </div>
             <div class="figure__info  ">
               <p class="figure__owner">Owned by CryptoKen</p>
@@ -290,7 +290,7 @@
           </figure>
           <figure class="gallery__figure lg:opacity-0 col-start-[19] col-end-[24] row-start-[17] row-end-[27] lg:translate-y-28">
             <div class="figure__image">
-              <img src="images/painting7.jpeg" alt="painting">
+              <img data-src="images/painting7.jpeg" src="images/painting7-low.jpeg" alt="painting">
             </div>
 
             <div class="figure__info  ">
@@ -318,7 +318,7 @@
 
         <section id="goal" class="goal relative flex flex-col sm:items-center sm:flex-row-reverse gap-5 sm:gap-16">
         <div class="goal__image flex-1 relative  before:absolute before:bottom-0 before:left-[15%] sm:before:left-[5rem] before:w-full sm:before:w-[50vw] before:h-[90%] before:bg-[linear-gradient(90deg,#f29100,#ffdf00)] before:-z-10 before:transition-all before:duration-1000 before:translate-x-20 before:opacity-0">
-          <img src="images/owner2.png" alt="owner" class="w-3/4 sm:w-full ml-[10%] sm:m-0 -translate-x-20 opacity-0 transition-all duration-1000 delay-500">
+          <img data-src="images/owner2.png" src="images/owner2-low.png" alt="owner" class="w-3/4 sm:w-full ml-[10%] sm:m-0 -translate-x-20 opacity-0 transition-all duration-1000 delay-500">
           <div class="logos absolute top-[10%] -right-[5%] xl:-right-[30%] flex gap-2 w-1/4 sm:w-1/3 h-1/3 opacity-0 transition-opacity duration-1000 delay-1000">
             <div class="box flex flex-col justify-evenly w-2/5">
               <svg   role="img" aria-labelledby="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178.619 127.237">
@@ -333,10 +333,10 @@
                 <path id="Path_169" data-name="Path 169" d="M6,93.35a9.388,9.388,0,0,1,1.359-5.212,12.546,12.546,0,0,1,3.674-3.628A11.177,11.177,0,0,1,9.12,81.546a8.9,8.9,0,0,1-.755-3.679,9.83,9.83,0,0,1,.805-3.986,9.582,9.582,0,0,1,2.215-3.168,9.773,9.773,0,0,1,3.322-2.044,10.991,10.991,0,0,1,4.127-.767,12.5,12.5,0,0,1,4.48.767,9.81,9.81,0,0,1,3.423,2.146,8.6,8.6,0,0,1,2.215,3.219,10.534,10.534,0,0,1,.755,4.037,7.73,7.73,0,0,1-1.359,4.548,14.748,14.748,0,0,1-3.272,3.373l4.58,3.884q.6-.613,1.057-1.175.5-.562.856-.971.4-.511.7-.92l6.745,5.826a29.114,29.114,0,0,1-5.084,5.519,34.172,34.172,0,0,1-2.819,2.044,21.009,21.009,0,0,1-3.372,1.737,22.143,22.143,0,0,1-3.926,1.226,19.013,19.013,0,0,1-4.48.511,19.477,19.477,0,0,1-5.99-.818,11.866,11.866,0,0,1-4.178-2.146,8.808,8.808,0,0,1-2.416-3.27A10.923,10.923,0,0,1,6,93.35Zm13.59,1.686a11.256,11.256,0,0,0,1.51-.1,9.807,9.807,0,0,0,1.51-.409l-4.882-4.19a2.846,2.846,0,0,0-1.258,2.3,2.04,2.04,0,0,0,.956,1.84,4.19,4.19,0,0,0,2.164.56ZM17.124,77.713a3.3,3.3,0,0,0,.3,1.38,6.773,6.773,0,0,0,1.309,1.482A6.8,6.8,0,0,0,20.4,79.246a2.47,2.47,0,0,0,.5-1.533,1.881,1.881,0,0,0-.5-1.38,1.821,1.821,0,0,0-1.359-.511,1.894,1.894,0,0,0-1.409.562,1.812,1.812,0,0,0-.508,1.329Z" transform="translate(-6 5.684)" fill="#ef4c23"/>
               </g>
             </svg>
-            <img src="images/goal__logo.svg" alt="circle logo">
+            <img data-src="images/goal__logo.svg" src="images/goal__logo-low.svg" alt="circle logo">
           </div>
-          <img src="images/level-c-logo.png" alt="level c logo">
-          <img src="images/ADPList-logo.png" alt="ADPList logo">
+          <img data-src="images/level-c-logo.png" src="images/level-c-logo-low.png" alt="level c logo">
+          <img data-src="images/ADPList-logo.png" src="images/ADPList-low-logo.png" alt="ADPList logo">
           </div>
         </div>
         <div class="goal__info flex-1">
@@ -359,7 +359,7 @@
 
         <section id="team" class="team relative flex flex-col sm:items-center sm:flex-row gap-8 sm:gap-16">
         <div class="team__image flex-1 lg:basis-[15%] relative  before:absolute before:bottom-0 before:right-[15%] sm:before:right-[5rem] before:w-full sm:before:w-[50vw] before:h-[110%] lg:before:h-[120%] before:bg-[linear-gradient(90deg,#f29100,#ffdf00)] before:-z-10 before:transition-all before:duration-1000 before:-translate-x-20 before:opacity-0">
-          <img src="images/family.svg" alt="owner" class="w-full transition-all duration-1000 delay-500 translate-x-20 opacity-0 ">
+          <img data-src="images/family.svg" src="images/family-low.svg" alt="owner" class="w-full transition-all duration-1000 delay-500 translate-x-20 opacity-0 ">
           <h4 class="team__author scale-x-125 absolute right-4 sm:right-12 -bottom-5 sm:-bottom-8 text-left text-[calc(5%vw)] tracking-widest font-medium text-yellow-300 text-[Nunito,sans-serif] opacity-0 transition-all delay-1000 duration-1000">ARTWORK BY PRASAD BHATT</h4>
           <h1 class="team__water-mark absolute -top-4 right-1/4 font-[Nunito,sans-serif] text-[calc(2rem+2vw)] text-yellow-200/50 font-black tracking-widest -z-10 opacity-0 transition-all delay-1000 duration-1000">#NFTARTFAM</h1>
         </div>
@@ -393,7 +393,7 @@
                 My session with Melvin was definitely an eye-opener for me. His mentorship was just too good. He could identify the exact hurdles I was facing and helped me overcome them. And also gave me a thorough profile review and clear-cut directions to follow. He is very knowledgeable and has been in the industry for a long time. Melvin will be the best mentor who can guide you.              </p>
               <div class="feedback__author">
                 <div class="feedback__profil">
-                  <img src="images/profil1.png" alt="profil">
+                  <img data-src="images/profil1.png" src="images/profil1-low.png" alt="profil">
                 </div>
                 <div class="box">
                   <h3 class="feedback__name">Arjun Kutty</h3>
@@ -406,7 +406,7 @@
                 Melvin is one of the best designers I have met. His blend of artistic creativity, technological expertise, and research savviness makes him unique. He is more of a consulting partner than a vendor who executes instructions. As he is always in touch with the latest trends, there is a lot you learn from him during the course of a project. I would highly recommend Melvin if you are looking to bring life and richness to your ideas.              </p>
               <div class="feedback__author">
                 <div class="feedback__profil">
-                  <img src="images/profil2.jpeg" alt="profil">
+                  <img data-src="images/profil2.jpeg" src="images/profil2-low.jpeg" alt="profil">
                 </div>
                 <div class="box">
                   <h3 class="feedback__name">Shamanth Shankar</h3>
@@ -419,7 +419,7 @@
                 Melvin is one of those professionals who take great pride in what he does, and things are no different when it comes to mentoring as well. With his systematic and unconditional approach to mentorship, he is hands-down one of the best mentors one can have in the NFT space and design in general. As a mentor myself, I believe mentoring cannot be limited to a single or a couple of sessions, it's a long-term association and is just like building a healthy relationship.               </p>
               <div class="feedback__author">
                 <div class="feedback__profil">
-                  <img src="images/profil3.png" alt="profil">
+                  <img data-src="images/profil3.png" src="images/profil3-low.png" alt="profil">
                 </div>
                 <div class="box">
                   <h3 class="feedback__name">Ranjithkumar Rajarethinam</h3>
@@ -433,7 +433,7 @@
               </p>
               <div class="feedback__author">
                 <div class="feedback__profil">
-                  <img src="images/profil4.jpeg" alt="profil">
+                  <img data-src="images/profil4.jpeg" src="images/profil4-low.jpeg" alt="profil">
                 </div>
                 <div class="box">
                   <h3 class="feedback__name">Devanarayanan Gopakumaran Nair </h3>
@@ -446,7 +446,7 @@
                 There are folks who can read between the lines and then there are the few who can recognize what isn't being said and make the story whole. Melvin has this rare ability - His work for us has wide-ranging implications from how branding and brand perception are conveyed and understood by the market but also the details and follow-through that then need to translate into everyday implications and usage of the design and the persona it represents.              </p>
               <div class="feedback__author">
                 <div class="feedback__profil">
-                  <img src="images/profil5.jpeg" alt="profil">
+                  <img data-src="images/profil5.jpeg" src="images/profil5-low.jpeg" alt="profil">
                 </div>
                 <div class="box">
                   <h3 class="feedback__name">Omer Farooque</h3>
@@ -459,7 +459,7 @@
                 Melvin is an amazing person - both personally and professionally. Melvin is also proof that regardless of your background, one can achieve greatness once you put your mind to it. Melvin joined us as one of our early team members. He possessed a rare combination of skill, humility and team-spirit. He was able to single-handedly build our UI/UX team, by attracting and engaging the right talent, and by creating a great brand.               </p>
               <div class="feedback__author">
                 <div class="feedback__profil">
-                  <img src="images/profil6.jpeg" alt="profil">
+                  <img data-src="images/profil6.jpeg" src="images/profil6-low.jpeg" alt="profil">
                 </div>
                 <div class="box">
                   <h3 class="feedback__name">Rajesh Padinjaremadam</h3>
@@ -484,7 +484,7 @@
      
             <aticle class="articles__item">
               <div class="article__image">
-                <img src="images/article3.jpeg" alt="article poster">
+                <img data-src="images/article3.jpeg" src="images/article3-low.jpeg" alt="article poster">
               </div>
               <figcaption class="">
                 <box class="flex article__info">
@@ -501,7 +501,7 @@
                           </aticle>
             <aticle class="articles__item">
               <div class="article__image">
-                <img src="images/article4.jpeg" alt="article poster">
+                <img data-src="images/article4.jpeg" src="images/article4-low.jpeg" alt="article poster">
               </div>
               <figcaption class="">
                 <box class="flex article__info">
@@ -516,7 +516,7 @@
             </aticle>
             <aticle class="articles__item">
               <div class="article__image">
-                <img src="images/article5.jpeg" alt="article poster">
+                <img data-src="images/article5.jpeg" src="images/article5-low.jpeg" alt="article poster">
               </div>
               <figcaption class="">
                 <box class="flex article__info">
@@ -531,7 +531,7 @@
                           </aticle>
                           <aticle class="articles__item">
                             <div class="article__image">
-                              <img src="images/article1.jpeg" alt="article poster">
+                              <img data-src="images/article1.jpeg" src="images/article1-low.jpeg" alt="article poster">
                             </div>
                             <figcaption class="">
                               <box class="flex article__info">
@@ -548,7 +548,7 @@
                                         </aticle>
                           <aticle class="articles__item">
                             <div class="article__image">
-                              <img src="images/article2.png" alt="article poster">
+                              <img data-src="images/article2.png" src="images/article2-low.png" alt="article poster">
                             </div>
                             <figcaption class="">
                               <box class="flex article__info">
@@ -572,7 +572,7 @@
         <section class="contact px-0" id="contact">
           <div class="contact__container flex flex-col md:flex-row-reverse justify-between items-center gap-[calc(4rem+12vw)] ">
           <div class="contact__image w-5/6 relative shadow-lg before:absolute before:-top-[7vh] before:-bottom-[7vh] before:left-[calc(2rem+2vw)] before:w-screen before:bg-gradient-to-r before:from-yellow-500 before:to-yellow-300 before:-z-10 flex-1 translate-x-32 opacity-0 before:-translate-x-32 before:opacity-0 transition-all duration-[1.4s] before:transition-all before:duration-[1.4s]">
-            <img src="images/painting8.jpg" alt="painting">
+            <img data-src="images/painting8.jpg" src="images/painting8-low.jpg" alt="painting">
           </div>
           <div class="contact__infos flex-1">
             <h1 class="contact__title font-[Arima,sans-serif] text-[max(3.5vw,3rem)] font-medium text-white -translate-y-12 opacity-0 transition-all duration-1000 delay-500 ">Get in touch</h1>
